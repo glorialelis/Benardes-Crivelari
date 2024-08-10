@@ -1,0 +1,102 @@
+@use '../abstract/variaveis';
+
+
+
+.main{
+    background-image: url("img/bg-logo-dourada.png");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20%;
+    nav{
+        padding-top: 1em;
+        display: flex;
+        align-items: center;
+        gap: 10%;
+        justify-content: center;
+        
+        li{
+            list-style: none;
+            
+            
+            a{
+                position: relative;
+                text-decoration: none;
+                color: black;
+                font-size: .85em;
+                white-space: nowrap;
+                letter-spacing: 0.3px;
+                padding: 0 10px;
+
+                &::after{
+                    content: "";
+                    position: absolute;
+                    background-color:#DBA529;
+                    height: 3px;
+                    width: 0;
+                    left: 0;
+                    bottom: -10px;
+                    transition: 0.3s;
+                }
+
+                &:hover:after{
+                    width: 100%;
+                }
+        
+            }
+        }
+        img{
+            width: 15%;
+        }
+    }
+
+    .main__conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1em;
+        width: 50%;
+        h1{
+            text-align: center;
+            font-family: Apollo;
+            font-size: 2em;
+            font-weight: 100;
+        }
+        p{
+            text-align: center;
+            font-size: 1em;
+        }
+        div{
+            border-radius: 30px;
+            background: variaveis.$gradiente-botao;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1em;
+            padding: .50em;
+            a{
+                color:white;
+            }
+            img{
+                width: 10%;
+            }
+
+            &:hover{
+                background-color: #DBA529 ;
+                letter-spacing: 0.15em;
+                transition: .50s;
+         
+            }
+        }
+
+    
+    }
+
+    
+
+}

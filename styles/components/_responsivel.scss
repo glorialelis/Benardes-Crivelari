@@ -1,0 +1,211 @@
+@media screen and (max-width: 834px)  {
+    
+    .main{
+        nav{
+            li{
+                display: none;
+            }
+            img{
+                width: 50%;
+            }
+        }
+        .main__conteudo{
+            h1{
+                font-size: 1.80rem;
+            }
+            div{
+                a{
+                    font-size: .80rem;
+                }
+            }
+
+        }
+    }
+
+
+
+
+    .servicos{
+        .cards{
+            grid-template-columns: 25% 25% 25%;
+            .card__ultimo{
+                grid-column: 2;
+            }
+        }
+
+    }
+
+    .quem__somos{
+        padding: 0;
+        
+        align-items: center;
+        justify-content: center;
+
+        div{
+            padding: 10%;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .benardes{
+        padding-left: 5%;
+        div{
+            width: 60%;
+
+        }
+        img{
+            width: 60%;
+        }
+
+    }
+    
+
+    .crivelari{
+        padding-left: 5%;
+        div{
+            width: 60%;
+
+        }
+        img{
+            width: 45%;
+        }
+
+    }
+
+    footer{
+        p{
+            font-size: .60rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+  }
+
+  @media screen and (max-width: 834px){
+    .main{
+        nav{
+            img{
+                width: 40%;
+            }
+
+        }
+        .main__conteudo{
+            width: 100%;
+            gap: .50;
+            h1{
+                font-size: 1.50rem;
+            }
+            p{
+                font-size: .80rem;
+            }
+            div{
+                
+                a{
+                    font-size: .80rem;
+                }
+            }
+
+        }
+    }
+    .servicos{
+        
+        h1 {
+            font-size: 1.40rem;
+            text-align: center;
+            white-space: nowrap;
+        }
+        .cards{
+            grid-template-columns: 50% 50% ;
+            .card__ultimo{
+                grid-column: 2;
+            }
+        }
+
+    }
+
+
+
+    .quem__somos{
+        padding: 0;
+        
+        flex-direction: column;
+        width: 100%;
+        div{
+        padding: 10%;
+            width: 90%;
+            h1{
+                text-align: center;
+                font-size: 1.50rem;
+            }
+            p{
+                text-align: center;
+                font-size: .80rem;
+
+            }
+
+        }
+        img{
+            width: 120%;
+        }
+    }
+
+
+
+
+
+    .benardes{
+        padding: 0;
+        
+        flex-direction: column-reverse;
+        width: 100%;
+        div{
+            padding: 20%;
+            width: 100%;
+            h1{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-size: .80rem;
+            }
+
+        }
+        img{
+            width: 120%;
+        }
+
+    }
+
+    .crivelari{
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+        div{
+            padding: 22%;
+            width: 100%;
+            h1{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-size: .80rem;
+            }
+
+        }
+        img{
+            width: 100%;
+        }
+    }
+
+    footer{
+        width: 100%;
+        flex-direction: column;
+        gap: .5em;
+    }
+
+    
+
+
+  }

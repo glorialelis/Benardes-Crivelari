@@ -1,0 +1,28 @@
+@use '../abstract/variaveis';
+
+.quem__somos{
+    
+    background: variaveis.$gradiente-background-primario;
+    display:flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        gap: 2em;
+        h1{
+            font-family: Apollo;
+            font-weight: 100;
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    img{
+        width: 32%;
+    }
+}

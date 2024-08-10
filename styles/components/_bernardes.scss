@@ -1,0 +1,30 @@
+@use '../abstract/variaveis';
+
+
+.benardes{
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 16%;
+    padding-left: 16%;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        gap: 2em;
+        h1{
+            font-family: Apollo;
+            font-weight: 100;
+            font-family: 4rem;
+        }
+    }
+    img{
+        width: 48%;
+    }
+}

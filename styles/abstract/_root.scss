@@ -1,0 +1,26 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+    
+    
+}
+
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #906419;
+    height: 5px;
+    border-radius: 10px;
+}

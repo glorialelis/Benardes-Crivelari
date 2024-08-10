@@ -1,0 +1,93 @@
+@use '../abstract/variaveis';
+.servicos{
+    background-color: variaveis.$cor-primaria;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5em 5em;
+    gap: 2em;
+
+    img{
+       position: relative;
+       top: 0;
+       width: 4em;
+
+    }
+
+    h1 {
+        font-family: Apollo;
+        font-weight: 100;
+    }
+    
+    
+
+    .cards{
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15%;
+        gap: .50em;
+        justify-content: center;
+        
+        .card__servicos {
+            
+            
+            background: variaveis.$gradiente-botao;
+            width: 100%;
+            height: 180px;
+            
+
+            img{
+                width: 4em;
+            }
+
+           div {
+                position: relative;
+                padding: 1em;
+                height: 97%;
+                width: 100%;
+                background-color: variaveis.$cor-secundaria;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 1em;
+                h2{
+                    font-weight: 600;
+                    font-size: 1em;
+                    text-align: center;
+                }
+                img{
+                    margin: 0;
+
+                }
+            }
+        }
+    }
+
+    .botao__fale_conosco{
+       
+        border-radius: 30px;
+        background: variaveis.$gradiente-botao;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        padding: 1em;
+        a{
+            color:white;
+        }
+        img{
+            width: 10%;
+        }
+        &:hover{
+            background-color: #DBA529 ;
+            letter-spacing: 0.15em;
+            transition: .50s;
+     
+        }
+    }
+    
+    
+}

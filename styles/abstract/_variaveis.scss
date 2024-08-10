@@ -1,0 +1,13 @@
+/*Declarando variáveis*/
+
+/*cores*/
+$gradiente-botao: linear-gradient( to right, #DBA529 , #906419 );
+$gradiente-background-primario: linear-gradient( to right,#906419, #EBC544, #fdfdfd );
+$gradiente-background-secundario: linear-gradient( to left, #906419 ,#EBC544, #fcfcfc00);
+$cor-primaria: #151515;
+$cor-secundaria: #292929;
+
+@font-face{
+    font-family: Apollo;
+    src: url(APOLLO.otf)
+}

@@ -1,0 +1,12 @@
+@use '../abstract/variaveis';
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: .80em;
+    background-color: variaveis.$cor-primaria;
+    padding: 3em;
+    gap: 1em;
+
+}
